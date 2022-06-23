@@ -1,0 +1,209 @@
+body{
+    background-color: #EEEBDD;
+    position: relative;
+    padding-bottom: 3em;
+}
+
+header{
+    background-color: #810000;
+    color: #FACE7F;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: 0%;
+    position: relative;
+    bottom: 10px;
+}
+
+header h1{
+    font-size: 2.1em;
+}
+
+header a{
+    text-decoration: none;
+    color: #EEEBDD;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    background-color: #630000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.caja1{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja1 a{
+    color:#FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja2{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja2 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja3{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja3 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contacto{
+    width: 100%;
+    background-color: #630000 ;
+    height: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer{
+    background-color: #810000;
+    width: 100%;
+    height: 25px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    color: #EEEBDD;
+    font-family:inherit;
+}
+
+footer p{
+    text-align: right;
+    padding-top: 2px;
+}
+
+.img1 img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+.contacto{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.contacto h2{
+    color: #D5DBB3;
+    font-size: 1.9em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.contacto p{
+    color: white;
+    font-size: 1.6em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media (min-width:1000px){
+
+    .img1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img1 img{
+        width: 70%;
+    }
+
+    .footer{
+        height: 20px;
+        margin-top: 1em;
+    }
+}
+
+@media screen and (min-width:500px){
+
+    .cajas{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+
+    }
+
+    .caja1{
+        width: 30%;
+        height: 100%;
+    }
+
+    .caja2{
+        width: 30%;
+        height: 100%;
+    }
+    
+    .caja3{
+        width: 30%;
+        height: 100%;
+
+    }
+    
+    header{
+        width: 100%;
+    }
+
+    .contacto p{
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .contacto h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .footer{
+        margin-top: 8em;
+    }
+
+    .footer p{
+        margin-top: 1em;
+    }
+}
+
+

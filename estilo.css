@@ -1,0 +1,333 @@
+body{
+    background-color: #EEEBDD;
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #630000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header a{
+    text-decoration: none;
+    color: #EEEBDD;
+}
+
+.caja1{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja1 a{
+    color:#FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja2{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja2 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja3{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja3 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.presentacion2{
+    background-color: #630000;
+    color: #ffffff;
+    font-size: 2.7em;
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+section p{
+    text-align: center;
+}
+
+
+header{
+    background-color: #810000;
+    color: #D5DBB3;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family:monospace;
+    margin: 0%;
+    position: relative;
+    bottom: 10px;
+}
+
+header h1{
+    font-size: 2.1em;
+}
+
+header a{
+    text-decoration: none;
+    color: #EEEBDD;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 470px;
+    position: relative;
+    margin-top: 1%;
+}
+
+
+.form{
+    width: 25%;
+    background-color: #630A10;
+    height: 30px;
+    margin-top: 1.7em;
+    margin-bottom: 0.5rem;
+}
+
+.form a{
+    text-decoration: none;
+    color: #EEEBDD;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form p{
+    text-align: center;
+}
+
+footer{
+    background-color: #810000;
+    color: #EEEBDD;
+    font-family:inherit;
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+}
+
+footer p{
+    text-align: right;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 1900px) {
+
+    .presentacion2{
+        height: 330px;
+        font-size: 2.5em;
+    }
+
+    .footer{
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+
+    .presentacion2{
+        height: 330px;
+        font-size: 2.5em;
+    }
+
+    .footer{
+        margin-top: 2em;
+    }
+}
+
+
+@media screen and (max-width: 1700px) {
+
+    .presentacion2{
+        height: 330px;
+        font-size: 2.5em;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .presentacion2{
+        height: 330px;
+        font-size: 2.5em;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .cajas{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+
+    }
+
+    .caja1{
+        width: 30%;
+        height: 100%;
+    }
+
+    .caja2{
+        width: 30%;
+        height: 100%;
+    }
+    
+    .caja3{
+        width: 30%;
+        height: 100%;
+
+    }
+
+    .footer{
+        height: 25px;
+        margin-top: 2em;
+    }
+    
+    .presentacion2{
+        height: 410px;
+        font-size: 180%;
+    }
+    
+    .footer p{
+        margin-top: 5px;
+    }
+
+    img{
+        width: 100%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .presentacion2{
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    .form p{
+        font-size: 1em;
+    }
+
+    .form{
+        width: 280px;
+    }
+
+    .presentacion2{
+        height: 510px;
+        font-size: 180%;
+    }
+
+}
+
+
+@media screen and (max-width: 995px) {
+
+    .presentacion2{
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .presentacion2{
+        height: 590px;
+        font-size: 180%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .cajas{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: small;
+    
+    }
+    
+    .caja1{
+        width: 30%;
+        height: 100%;
+    }
+    
+    .caja2{
+        width: 30%;
+        height: 100%;
+    }
+        
+    .caja3{
+        width: 30%;
+        height: 100%;
+    
+    }
+
+    .presentacion2{
+        width: 100%;
+        font-size: 1.4em;
+        height: 600px;
+    }
+
+    header{
+        width: 490px;
+        font-size: 1.2em;
+
+    }
+
+    .form p{
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .form{
+        width: 45%;
+    }
+
+}

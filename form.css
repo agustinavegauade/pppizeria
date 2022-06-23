@@ -1,0 +1,154 @@
+body{
+    background-color: #EEEBDD;
+}
+
+header{
+    background-color: #810000;
+    color: #FACE7F;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-family:monospace;
+    margin: 0%;
+    position: relative;
+    bottom: 10px;
+}
+
+header h1{
+    font-size: 2.1em;
+}
+
+header a{
+    text-decoration: none;
+    color: #EEEBDD;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    background-color: #630000;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.caja1{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja1 a{
+    color:#FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja2{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja2 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.caja3{
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 8%;
+}
+
+.caja3 a{
+    color: #FCF0C8;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.texto1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cp1{
+    padding: 10px;
+    width: 60%;
+}
+
+.cp2{
+    padding: 10px;
+    width: 60%;
+    height: 10em;
+}
+
+.ayuda{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.campo{
+    margin-top: 1.5em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+.pb1{
+    width: 8em;
+}
+
+.env2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+
+.footer{
+    background-color: #810000;
+    width: 100%;
+    height: 25px;
+    margin-left: -8px;
+    margin-top: 18em;
+    margin-bottom: 0%;
+    color: #D5DBB3;
+    font-family:inherit;
+}
+
+footer p{
+    text-align: right;
+    padding-top: 2px;
+}
+
+@media screen and (max-width:1000px){
+
+    .cp1{
+        width: 90%;
+    }
+
+    .cp2{
+        width: 90%;
+    }
+
+    .campo{
+        width: 90%;
+
+    }
+
+}

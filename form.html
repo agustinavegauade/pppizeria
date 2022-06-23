@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><h1>Pizzería FRIENDS "P" </h1></a>
+    </header>
+
+
+    <nav>
+        <div class="caja1"> <a href="menu.html"><h2>Menú</h2></a> </div>
+        <div class="caja2"> <a href="contacto.html"><h2>Contacto</h2></a> </div>
+        <div class="caja3"> <a href="ubicacion.html"><h2>Ubicación</h2></a> </div>
+    </nav>
+
+
+    <form id="formulario" class="pdm" onsubmit="return verificacionForm()">
+        <h2 class="texto1">¿En qué podemos mejorar?</h2>
+        <div class="campo">
+            <input id="nombre" class="cp1" type="text" autocomplete="on" maxlength="100" value="Nombre" onfocus="onFocus(this)" onblur="onBlur(this)"  required>
+        </div>
+
+        <div class="campo">
+            <input id="mail" class="cp1" type="email" autocomplete="on" maxlength="100" value="Email" onfocus="onFocus(this)" onblur="onBlur(this)"  required>
+        </div>
+
+        <div class="campo">
+            <input id="telefono" class="cp1" type="tel" autocomplete="on" maxlength="100" value="Número de teléfono" onfocus="onFocus(this)" onblur="onBlur(this)">
+        </div>
+
+        <div class="campo">
+            <label for="Des" class="ayuda">¿Cómo podemos ayudarte?</label>
+            <textarea id="Des" class="cp2" autocomplete="on" data-max-rows="3" placeholder="Sugerencias o reclamos:" onfocus="onFocus(this)" onblur="onBlur(this)"  required></textarea>
+        </div>
+
+        <div class="campo">
+            <div class="env2">
+                <input class="pb1" type="submit" value="Enviar" onclick="msg()">
+            </div>
+
+        </div>
+
+        <script>
+            function onBlur(el) {
+                if (el.value == '') {
+                    el.value = el.defaultValue;
+                }
+            }
+            function onFocus(el) {
+                if (el.value == el.defaultValue) {
+                    el.value = '';
+                }
+            }
+        </script>
+    </form>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Pizzería FRIENDS"P" 2022|</p>
+        </div>
+</body>
+</html>
